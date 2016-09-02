@@ -1,0 +1,177 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,300,500,700,900,100italic,300italic,400,400italic,500italic,700italic,900italic);
+/*  #########  LAYOUT WIDGETS #########  */
+/* ------------CTA---------------------- */
+/* line 13, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+.cta-box {
+  margin: 2em 0 !important;
+  outline: 1px line #ddd; }
+
+/* ------------MODAL---------------------- */
+/* line 18, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+.is-reveal-open .blur {
+  -webkit-filter: blur(5px) grayscale(1);
+  filter: blur(5px) grayscale(1);
+  transition: all 2s; }
+
+/* line 24, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+.reveal-overlay {
+  background-color: rgba(10, 10, 10, 0.65); }
+
+/* line 28, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+.sitepreview {
+  width: 70%; }
+
+/* line 32, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+.feature-list-bullets {
+  list-style: none; }
+
+/* line 35, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+.feature-list-bullets li {
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  font-size: 3em;
+  height: 2em;
+  width: 2em; }
+
+/* line 43, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+.feature-list-bullets li:nth-of-type(1) {
+  top: 455px;
+  left: 50px; }
+
+/* line 47, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+.feature-list-bullets li:nth-of-type(2) {
+  top: 900px;
+  left: 200px; }
+
+/* line 51, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+.feature-list-bullets li:nth-of-type(3) {
+  top: 1385px;
+  left: 100px; }
+
+/* line 55, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+.feature-list-bullets li:nth-of-type(4) {
+  top: 1700px;
+  left: 500px; }
+
+/* line 61, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+.pullout {
+  background: #fafcfc;
+  border: 3px solid #666;
+  position: absolute;
+  right: -120%;
+  top: 0;
+  z-index: 99;
+  width: 250px;
+  padding: 1%;
+  border-radius: 4px; }
+  /* line 72, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+  .pullout p {
+    font-size: 12px; }
+  /* line 75, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+  .pullout:before {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    left: -100%;
+    top: 44px;
+    background: #666; }
+
+/* line 87, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+.pullout:nth-of-type(1) {
+  top: 455px;
+  right: 50px; }
+
+/* line 95, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+.feature-list:nth-of-type(2) {
+  top: 900px;
+  right: 50px; }
+
+/* line 99, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+.feature-list:nth-of-type(3) {
+  top: 1385px;
+  right: 50px; }
+
+/* line 103, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+.feature-list:nth-of-type(4) {
+  top: 1700px;
+  right: 50px; }
+
+/* line 110, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+.radar {
+  fill: none;
+  stroke: #96f019;
+  stroke-width: 4;
+  animation: ping 10s infinite; }
+
+/* line 116, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+.core {
+  fill: #96f019;
+  stroke: #96f019;
+  stroke-width: 4;
+  animation: throb 10s infinite; }
+
+/* line 119, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+.radar:nth-of-type(1) {
+  animation-delay: 300ms; }
+
+/* line 122, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+.radar:nth-of-type(2) {
+  animation-delay: 200ms; }
+
+/* line 125, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+.radar:nth-of-type(3) {
+  animation-delay: 100ms; }
+
+@keyframes ping {
+  0% {
+    opacity: 0; }
+  40% {
+    opacity: 0; }
+  42% {
+    opacity: .5; }
+  50% {
+    opacity: 0; }
+  52% {
+    opacity: .5; }
+  60% {
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+
+@keyframes throb {
+  0% {
+    opacity: 1; }
+  38% {
+    opacity: 1; }
+  40% {
+    opacity: .5; }
+  48% {
+    opacity: 1; }
+  50% {
+    opacity: .5; }
+  58% {
+    opacity: 1; }
+  100% {
+    opacity: 1; } }
+
+/* ------------SITEFRAME---------------------- */
+/* line 153, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+.siteframe {
+  border: 3px solid #eee;
+  position: relative; }
+
+/* line 157, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+.siteframe .icon {
+  position: absolute;
+  bottom: -2em;
+  right: -2em; }
+
+/*  #########  TEXT #########  */
+/* line 165, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+.title {
+  margin: 1em 0; }
+
+/*# sourceMappingURL=styles.css.map */

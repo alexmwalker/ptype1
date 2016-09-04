@@ -1,70 +1,57 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,300,500,700,900,100italic,300italic,400,400italic,500italic,700italic,900italic);
 /*  #########  LAYOUT WIDGETS #########  */
 /* ------------CTA---------------------- */
-/* line 13, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
 .radar-number {
   font-size: 54px;
   font-family: Roboto;
   fill: white;
   word-spacing: 0px; }
 
-/* line 19, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
 .cta-box {
   margin: 2em 0 !important;
   outline: 1px line #ddd; }
 
 /* ------------MODAL---------------------- */
-/* line 24, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
 .is-reveal-open .blur {
   -webkit-filter: blur(5px) grayscale(1);
   filter: blur(5px) grayscale(1);
   transition: all 1s; }
 
-/* line 30, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
 .reveal-overlay {
   background-color: rgba(10, 10, 10, 0.65);
   transition: all 1s; }
 
-/* line 35, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
 .sitepreview {
   width: 650px;
   overflow: visible; }
 
-/* line 40, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
 .feature-list-bullets {
   list-style: none; }
 
-/* line 43, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
 .feature-list-bullets li {
   position: absolute;
   font-size: 3em;
   height: 2em;
   width: 2em; }
 
-/* line 50, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
 .feature-list-bullets li:nth-of-type(1) {
   top: 455px;
   left: 50px; }
-  /* line 53, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
   .feature-list-bullets li:nth-of-type(1) .pullout {
     left: -320px; }
 
-/* line 57, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
 .feature-list-bullets li:nth-of-type(2) {
   top: 900px;
   left: 200px; }
 
-/* line 61, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
 .feature-list-bullets li:nth-of-type(3) {
   top: 1385px;
   left: 100px; }
 
-/* line 65, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
 .feature-list-bullets li:nth-of-type(4) {
   top: 1700px;
   left: 500px; }
 
-/* line 71, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
 .pullout {
   background: #fafcfc;
   border: 3px solid #666;
@@ -75,26 +62,21 @@
   padding: 1%;
   border-radius: 4px;
   padding: 0 2px; }
-  /* line 83, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
   .pullout p {
     font-size: 12px; }
 
-/* line 89, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
 .feature-list:nth-of-type(2) {
   top: 900px;
   right: 50px; }
 
-/* line 93, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
 .feature-list:nth-of-type(3) {
   top: 1385px;
   right: 50px; }
 
-/* line 97, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
 .feature-list:nth-of-type(4) {
   top: 1700px;
   right: 50px; }
 
-/* line 101, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
 .joiner:before {
   display: block;
   content: "";
@@ -105,29 +87,24 @@
   top: 46px;
   background: red; }
 
-/* line 115, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
 .radar {
   fill: none;
   stroke: #ff7805;
   stroke-width: 4;
   animation: ping 10s infinite; }
 
-/* line 120, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
 .core {
   fill: #ff7805;
   stroke: #ff7805;
   stroke-width: 4;
   animation: throb 10s infinite; }
 
-/* line 123, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
 .radar:nth-of-type(1) {
   animation-delay: 300ms; }
 
-/* line 126, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
 .radar:nth-of-type(2) {
   animation-delay: 200ms; }
 
-/* line 129, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
 .radar:nth-of-type(3) {
   animation-delay: 100ms; }
 
@@ -146,7 +123,6 @@
     opacity: 0; }
   100% {
     opacity: 0; } }
-
 @keyframes throb {
   0% {
     opacity: 1; }
@@ -162,21 +138,15 @@
     opacity: 1; }
   100% {
     opacity: 1; } }
-
 /* ------------SITEFRAME---------------------- */
-/* line 157, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
 .siteframe {
   position: relative; }
 
-/* line 161, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
 .siteframe .icon {
   position: absolute;
   bottom: -2em;
   right: -2em; }
 
 /*  #########  TEXT #########  */
-/* line 169, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
 .title {
   margin: 1em 0; }
-
-/*# sourceMappingURL=styles.css.map */

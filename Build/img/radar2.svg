@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style id="bx-google-fonts">@import url(https://fonts.googleapis.com/css?family=Roboto:100,300,500,700,900,100italic,300italic,400,400italic,500italic,700italic,900italic);</style>
+  </defs>
+    <ellipse class="radar" cx="70" cy="77.8" rx="59" ry="59" />
+    <ellipse class="radar"  cx="70" cy="77.8" rx="51" ry="51"/>
+    <ellipse class="radar"  cx="70" cy="77.8" rx="43" ry="43"/>
+    <ellipse class="core"  cx="70" cy="77.8" rx="35" ry="35"/>
+  <text x="52" y="98.3" style="font-size: 64px; font-family: Roboto; fill: rgb(255, 255, 255); word-spacing: 0px;">1</text>
+</svg>

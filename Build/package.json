@@ -1,0 +1,25 @@
+{
+  "name": "ptype1",
+  "version": "1.0.0",
+  "description": "Component store Prototype ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexmwalker/ptype1.git"
+  },
+  "keywords": [
+    "components"
+  ],
+  "author": "Alex Walker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexmwalker/ptype1/issues"
+  },
+  "homepage": "https://github.com/alexmwalker/ptype1#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}

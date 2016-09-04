@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
+    <style>
+.radar{
+  fill: none;
+  stroke: rgb(5, 154, 247);
+  stroke-width: 4;
+
+  animation: ping 10s infinite}
+.core{fill: rgb(5, 154, 247); stroke: rgb(5, 154, 247); stroke-width: 4;
+  animation: throb 10s infinite}
+
+.radar:nth-of-type(1){
+  animation-delay:300ms;
+}
+
+.radar:nth-of-type(2){
+  animation-delay:200ms;
+}
+.radar:nth-of-type(43){
+
+  animation-delay:100ms;
+}
+
+@keyframes ping{
+  0% {opacity: 0}
+  40%{opacity: 0}
+  42%{opacity: .5}
+  50%{opacity: 0}
+  52%{opacity: .5}
+  60%{opacity: 0}
+  100%{opacity: 0}
+}
+@keyframes throb{
+  0% {opacity: 1}
+  40%{opacity: 1}
+  42%{opacity: .5}
+  50%{opacity: 1}
+  52%{opacity: .5}
+  60%{opacity: 1}
+  100%{opacity: 1}
+}
+    </style>
+  <g>
+    <ellipse class="radar" cx="70" cy="77.8" rx="59" ry="59" />
+    <ellipse class="radar"  cx="70" cy="77.8" rx="51" ry="51"/>
+    <ellipse class="radar"  cx="70" cy="77.8" rx="43" ry="43"/>
+    <ellipse class="core"  cx="70" cy="77.8" rx="35" ry="35"/>
+  </g>
+</svg>

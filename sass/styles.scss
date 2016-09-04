@@ -1,6 +1,7 @@
 @charset "utf-8";
+$delaytime: 1s;
 
-$radar-color: rgb(150, 240, 25);
+$radar-color: rgb(255, 120, 05);
 div{
    // outline: 1px #eee dashed;
 }
@@ -9,7 +10,12 @@ div{
 /*  #########  LAYOUT WIDGETS #########  */
 
 /* ------------CTA---------------------- */
-
+.radar-number{
+    font-size: 54px;
+    font-family: Roboto;
+    fill: rgb(255, 255, 255);
+    word-spacing: 0px;
+}
 .cta-box {
     margin: 2em 0!important;
     outline: 1px line #ddd;
@@ -18,15 +24,17 @@ div{
 .is-reveal-open .blur {
 -webkit-filter: blur(5px)  grayscale(1);
   filter: blur(5px)  grayscale(1);
-  transition: all 2s;
+  transition: all $delaytime;
 //
 }
 .reveal-overlay {
     background-color: rgba(10, 10, 10, 0.65);
+    transition: all $delaytime;
 }
 
 .sitepreview{
-    width: 70%;
+    width: 650px;
+    overflow: visible
 
 }
 .feature-list-bullets{
@@ -34,15 +42,17 @@ div{
 }
 .feature-list-bullets li{
     position: absolute;
-    color: #fff;
-    text-align: center;
     font-size: 3em;
     height: 2em;
     width: 2em;
 }
+
 .feature-list-bullets li:nth-of-type(1){
     top: 455px;
     left: 50px;
+    .pullout{
+        left:-320px;
+    }
 }
 .feature-list-bullets li:nth-of-type(2){
     top: 900px;
@@ -62,36 +72,20 @@ div{
     background: #fafcfc;
     border: 3px solid #666;
     position: absolute;
-    right: -120%;
+    //right: -120%;
     top: 0 ;
     z-index: 99;
     width: 250px;
     padding: 1%;
     border-radius: 4px;
+    padding: 0 2px;
 
     p{
         font-size: 12px;
     }
-    &:before{
-      display: block;
-      content: "";
-      width: 100%;
-      height: 2px;
-      position: absolute;
-      left: -100%;
-      top: 44px;
-      background: #666
-    }
-
 }
-.pullout:nth-of-type(1){
-    top: 455px;
-    right: 50px;
-    &:before{
-        //width: 600px;
 
-    }
-}
+
 .feature-list:nth-of-type(2){
     top: 900px;
     right: 50px;
@@ -104,6 +98,17 @@ div{
     top: 1700px;
     right: 50px;
 }
+.joiner:before{
+    display: block;
+      content: "";
+      width: 150%;
+      height: 2px;
+      position: absolute;
+      left: -100px;
+      top: 46px;
+      background: red
+}
+
 
 
 
@@ -111,7 +116,6 @@ div{
   fill: none;
   stroke: $radar-color;
   stroke-width: 4;
-
   animation: ping 10s infinite}
 .core{fill: $radar-color; stroke: $radar-color; stroke-width: 4;
   animation: throb 10s infinite}
@@ -151,7 +155,7 @@ div{
 /* ------------SITEFRAME---------------------- */
 
 .siteframe{
-    border: 3px solid #eee;
+
     position: relative;
 }
 .siteframe .icon{

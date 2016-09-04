@@ -34,7 +34,9 @@ div{
 
 .sitepreview{
     width: 650px;
-    overflow: visible
+    overflow: visible;
+    margin-bottom: 3em;
+   text-decoration: none; border: 0px
 
 }
 .feature-list-bullets{
@@ -50,7 +52,7 @@ div{
         height: 100px;
         position: absolute;
         top: -51px;
-        right:-78px;
+
     }
 }
 
@@ -60,7 +62,7 @@ div{
         width: 100px;
         right: -100px;
         svg{
-        right:-78px;
+        right:-88px;
         }
     }
 }
@@ -70,7 +72,7 @@ div{
         width: 100px;
         left: -100px;
         svg{
-        left:-74px;
+        left:-84px;
         }
     }
 
@@ -81,7 +83,7 @@ div{
         width: 100px;
         right: -100px;
         svg{
-        right:-78px;
+        right:-88px;
         }
     }
 
@@ -92,7 +94,7 @@ div{
         width: 100px;
         left: -100px;
         svg{
-        left:-74px;
+        left:-84px;
         }
     }
 
@@ -100,13 +102,13 @@ div{
 
 .pullout{
     background: #fafcfc;
-    border: 3px solid #666;
+    border: 3px solid #444;
     position: absolute;
     top: 0 ;
     z-index: 99;
     width: 250px;
     border-radius: 8px;
-    padding: 0 4px;
+    padding: 2px 4px;
     p{
         font-size: 12px;
     }

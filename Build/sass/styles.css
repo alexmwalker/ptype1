@@ -32,25 +32,45 @@
   position: absolute;
   font-size: 3em;
   height: 2em;
-  width: 2em; }
+  width: 100%; }
+  .feature-list-bullets li svg {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -51px;
+    right: -78px; }
 
 .feature-list-bullets li:nth-of-type(1) {
-  top: 455px;
-  left: 50px; }
-  .feature-list-bullets li:nth-of-type(1) .pullout {
-    left: -320px; }
+  top: 455px; }
+  .feature-list-bullets li:nth-of-type(1) .joiner {
+    width: 100px;
+    right: -100px; }
+    .feature-list-bullets li:nth-of-type(1) .joiner svg {
+      right: -78px; }
 
 .feature-list-bullets li:nth-of-type(2) {
-  top: 900px;
-  left: 200px; }
+  top: 900px; }
+  .feature-list-bullets li:nth-of-type(2) .joiner {
+    width: 100px;
+    left: -100px; }
+    .feature-list-bullets li:nth-of-type(2) .joiner svg {
+      left: -74px; }
 
 .feature-list-bullets li:nth-of-type(3) {
-  top: 1385px;
-  left: 100px; }
+  top: 1385px; }
+  .feature-list-bullets li:nth-of-type(3) .joiner {
+    width: 100px;
+    right: -100px; }
+    .feature-list-bullets li:nth-of-type(3) .joiner svg {
+      right: -78px; }
 
 .feature-list-bullets li:nth-of-type(4) {
-  top: 1700px;
-  left: 500px; }
+  top: 1700px; }
+  .feature-list-bullets li:nth-of-type(4) .joiner {
+    width: 100px;
+    left: -100px; }
+    .feature-list-bullets li:nth-of-type(4) .joiner svg {
+      left: -74px; }
 
 .pullout {
   background: #fafcfc;
@@ -59,11 +79,16 @@
   top: 0;
   z-index: 99;
   width: 250px;
-  padding: 1%;
-  border-radius: 4px;
-  padding: 0 2px; }
+  border-radius: 8px;
+  padding: 0 4px; }
   .pullout p {
     font-size: 12px; }
+
+.pullleft {
+  left: -320px; }
+
+.pullright {
+  right: -250px; }
 
 .feature-list:nth-of-type(2) {
   top: 900px;
@@ -77,15 +102,13 @@
   top: 1700px;
   right: 50px; }
 
-.joiner:before {
+.joiner {
   display: block;
   content: "";
-  width: 150%;
   height: 2px;
   position: absolute;
-  left: -100px;
   top: 46px;
-  background: red; }
+  background: #888; }
 
 .radar {
   fill: none;
@@ -140,6 +163,7 @@
     opacity: 1; } }
 /* ------------SITEFRAME---------------------- */
 .siteframe {
+  border: 1px solid grey;
   position: relative; }
 
 .siteframe .icon {

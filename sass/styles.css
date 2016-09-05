@@ -52,7 +52,7 @@
 
 /* line 59, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
 .feature-list-bullets li:nth-of-type(1) {
-  top: 455px; }
+  top: 55px; }
   /* line 61, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
   .feature-list-bullets li:nth-of-type(1) .joiner {
     width: 100px;
@@ -63,7 +63,7 @@
 
 /* line 69, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
 .feature-list-bullets li:nth-of-type(2) {
-  top: 900px; }
+  top: 200px; }
   /* line 71, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
   .feature-list-bullets li:nth-of-type(2) .joiner {
     width: 100px;
@@ -74,7 +74,7 @@
 
 /* line 80, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
 .feature-list-bullets li:nth-of-type(3) {
-  top: 1385px; }
+  top: 385px; }
   /* line 82, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
   .feature-list-bullets li:nth-of-type(3) .joiner {
     width: 100px;
@@ -85,7 +85,7 @@
 
 /* line 91, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
 .feature-list-bullets li:nth-of-type(4) {
-  top: 1700px; }
+  top: 700px; }
   /* line 93, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
   .feature-list-bullets li:nth-of-type(4) .joiner {
     width: 100px;

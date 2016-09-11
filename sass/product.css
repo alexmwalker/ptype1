@@ -1,10 +1,229 @@
-/* line 1, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/product.scss */
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,300,500,700,900,100italic,300italic,400,400italic,500italic,700italic,900italic);
+/*  #########  LAYOUT WIDGETS #########  */
+/* ------------CTA---------------------- */
+/* line 13, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/product.scss */
+.radar-number {
+  font-size: 54px;
+  font-family: Roboto;
+  fill: white;
+  word-spacing: 0px; }
+
+/* line 19, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/product.scss */
+.cta-box {
+  margin: 2em 0 !important;
+  outline: 1px line #ddd; }
+
+/* line 24, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/product.scss */
 .perf-badge {
   border: 1px #ccc solid;
   border-radius: 10px;
   text-align: center; }
-  /* line 5, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/product.scss */
+  /* line 28, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/product.scss */
   .perf-badge span.figures {
     font-size: 3em; }
+    /* line 30, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/product.scss */
+    .perf-badge span.figures .highlight {
+      color: limegreen; }
+
+/* ------------MODAL---------------------- */
+/* line 37, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/product.scss */
+.is-reveal-open .blur {
+  -webkit-filter: blur(5px) grayscale(1);
+  filter: blur(5px) grayscale(1);
+  transition: all 1s; }
+
+/* line 43, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/product.scss */
+.reveal-overlay {
+  background-color: rgba(10, 10, 10, 0.65);
+  transition: all 1s; }
+
+/* line 48, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/product.scss */
+.sitepreview {
+  width: 650px;
+  overflow: visible;
+  margin-bottom: 3em;
+  text-decoration: none;
+  border: 0px; }
+
+/* line 59, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/product.scss */
+.feature-list-bullets {
+  list-style: none; }
+
+/* line 62, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/product.scss */
+.feature-list-bullets li {
+  position: absolute;
+  font-size: 3em;
+  height: 2em;
+  width: 100%; }
+  /* line 67, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/product.scss */
+  .feature-list-bullets li svg {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -51px; }
+
+/* line 75, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/product.scss */
+img.icon {
+  width: 2em; }
+
+/* line 78, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/product.scss */
+.feature-list-bullets li:nth-of-type(1) {
+  top: 55px; }
+  /* line 80, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/product.scss */
+  .feature-list-bullets li:nth-of-type(1) .joiner {
+    width: 100px;
+    right: -100px; }
+    /* line 83, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/product.scss */
+    .feature-list-bullets li:nth-of-type(1) .joiner svg {
+      right: -88px; }
+
+/* line 88, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/product.scss */
+.feature-list-bullets li:nth-of-type(2) {
+  top: 200px; }
+  /* line 90, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/product.scss */
+  .feature-list-bullets li:nth-of-type(2) .joiner {
+    width: 100px;
+    left: -100px; }
+    /* line 93, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/product.scss */
+    .feature-list-bullets li:nth-of-type(2) .joiner svg {
+      left: -84px; }
+
+/* line 99, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/product.scss */
+.feature-list-bullets li:nth-of-type(3) {
+  top: 385px; }
+  /* line 101, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/product.scss */
+  .feature-list-bullets li:nth-of-type(3) .joiner {
+    width: 100px;
+    right: -100px; }
+    /* line 104, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/product.scss */
+    .feature-list-bullets li:nth-of-type(3) .joiner svg {
+      right: -88px; }
+
+/* line 110, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/product.scss */
+.feature-list-bullets li:nth-of-type(4) {
+  top: 700px; }
+  /* line 112, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/product.scss */
+  .feature-list-bullets li:nth-of-type(4) .joiner {
+    width: 100px;
+    left: -100px; }
+    /* line 115, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/product.scss */
+    .feature-list-bullets li:nth-of-type(4) .joiner svg {
+      left: -84px; }
+
+/* line 122, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/product.scss */
+.pullout {
+  background: #fafcfc;
+  border: 3px solid #444;
+  position: absolute;
+  top: 0;
+  z-index: 99;
+  width: 250px;
+  border-radius: 8px;
+  padding: 2px 4px; }
+  /* line 131, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/product.scss */
+  .pullout p {
+    font-size: 12px; }
+
+/* line 135, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/product.scss */
+.pullleft {
+  left: -320px; }
+
+/* line 138, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/product.scss */
+.pullright {
+  right: -250px; }
+
+/* line 142, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/product.scss */
+.feature-list:nth-of-type(2) {
+  top: 900px;
+  right: 50px; }
+
+/* line 146, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/product.scss */
+.feature-list:nth-of-type(3) {
+  top: 1385px;
+  right: 50px; }
+
+/* line 150, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/product.scss */
+.feature-list:nth-of-type(4) {
+  top: 1700px;
+  right: 50px; }
+
+/* line 154, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/product.scss */
+.joiner {
+  display: block;
+  content: "";
+  height: 2px;
+  position: absolute;
+  top: 46px;
+  background: #888; }
+
+/* line 168, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/product.scss */
+.radar {
+  fill: none;
+  stroke: #ff7805;
+  stroke-width: 4;
+  animation: ping 10s infinite; }
+
+/* line 174, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/product.scss */
+.core {
+  fill: #ff7805;
+  stroke: #ff7805;
+  stroke-width: 4;
+  animation: throb 10s infinite; }
+
+/* line 177, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/product.scss */
+.radar:nth-of-type(1) {
+  animation-delay: 300ms; }
+
+/* line 180, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/product.scss */
+.radar:nth-of-type(2) {
+  animation-delay: 200ms; }
+
+/* line 183, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/product.scss */
+.radar:nth-of-type(3) {
+  animation-delay: 100ms; }
+
+@keyframes ping {
+  0% {
+    opacity: 0; }
+  40% {
+    opacity: 0; }
+  42% {
+    opacity: .5; }
+  50% {
+    opacity: 0; }
+  52% {
+    opacity: .5; }
+  60% {
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+
+@keyframes throb {
+  0% {
+    opacity: 1; }
+  38% {
+    opacity: 1; }
+  40% {
+    opacity: .5; }
+  48% {
+    opacity: 1; }
+  50% {
+    opacity: .5; }
+  58% {
+    opacity: 1; }
+  100% {
+    opacity: 1; } }
+
+/* ------------SITEFRAME---------------------- */
+/* line 211, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/product.scss */
+.siteframe {
+  border: 1px solid grey;
+  position: relative; }
+
+/* line 215, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/product.scss */
+.siteframe .icon {
+  position: absolute;
+  bottom: -2em;
+  right: -2em; }
 
 /*# sourceMappingURL=product.css.map */

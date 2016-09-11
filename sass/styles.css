@@ -14,18 +14,18 @@
   outline: 1px line #ddd; }
 
 /* ------------MODAL---------------------- */
-/* line 24, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+/* line 26, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
 .is-reveal-open .blur {
   -webkit-filter: blur(5px) grayscale(1);
   filter: blur(5px) grayscale(1);
   transition: all 1s; }
 
-/* line 30, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+/* line 32, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
 .reveal-overlay {
   background-color: rgba(10, 10, 10, 0.65);
   transition: all 1s; }
 
-/* line 35, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+/* line 37, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
 .sitepreview {
   width: 650px;
   overflow: visible;
@@ -33,68 +33,72 @@
   text-decoration: none;
   border: 0px; }
 
-/* line 42, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+/* line 44, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
 .feature-list-bullets {
   list-style: none; }
 
-/* line 45, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+/* line 47, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
 .feature-list-bullets li {
   position: absolute;
   font-size: 3em;
   height: 2em;
   width: 100%; }
-  /* line 50, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+  /* line 52, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
   .feature-list-bullets li svg {
     width: 100px;
     height: 100px;
     position: absolute;
     top: -51px; }
 
-/* line 59, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+/* line 60, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+img.icon {
+  width: 2em; }
+
+/* line 63, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
 .feature-list-bullets li:nth-of-type(1) {
   top: 55px; }
-  /* line 61, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+  /* line 65, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
   .feature-list-bullets li:nth-of-type(1) .joiner {
     width: 100px;
     right: -100px; }
-    /* line 64, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+    /* line 68, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
     .feature-list-bullets li:nth-of-type(1) .joiner svg {
       right: -88px; }
 
-/* line 69, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+/* line 73, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
 .feature-list-bullets li:nth-of-type(2) {
   top: 200px; }
-  /* line 71, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+  /* line 75, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
   .feature-list-bullets li:nth-of-type(2) .joiner {
     width: 100px;
     left: -100px; }
-    /* line 74, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+    /* line 78, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
     .feature-list-bullets li:nth-of-type(2) .joiner svg {
       left: -84px; }
 
-/* line 80, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+/* line 84, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
 .feature-list-bullets li:nth-of-type(3) {
   top: 385px; }
-  /* line 82, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+  /* line 86, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
   .feature-list-bullets li:nth-of-type(3) .joiner {
     width: 100px;
     right: -100px; }
-    /* line 85, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+    /* line 89, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
     .feature-list-bullets li:nth-of-type(3) .joiner svg {
       right: -88px; }
 
-/* line 91, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+/* line 95, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
 .feature-list-bullets li:nth-of-type(4) {
   top: 700px; }
-  /* line 93, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+  /* line 97, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
   .feature-list-bullets li:nth-of-type(4) .joiner {
     width: 100px;
     left: -100px; }
-    /* line 96, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+    /* line 100, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
     .feature-list-bullets li:nth-of-type(4) .joiner svg {
       left: -84px; }
 
-/* line 103, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+/* line 107, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
 .pullout {
   background: #fafcfc;
   border: 3px solid #444;
@@ -104,34 +108,34 @@
   width: 250px;
   border-radius: 8px;
   padding: 2px 4px; }
-  /* line 112, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+  /* line 116, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
   .pullout p {
     font-size: 12px; }
 
-/* line 116, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+/* line 120, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
 .pullleft {
   left: -320px; }
 
-/* line 119, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+/* line 123, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
 .pullright {
   right: -250px; }
 
-/* line 123, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+/* line 127, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
 .feature-list:nth-of-type(2) {
   top: 900px;
   right: 50px; }
 
-/* line 127, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+/* line 131, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
 .feature-list:nth-of-type(3) {
   top: 1385px;
   right: 50px; }
 
-/* line 131, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+/* line 135, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
 .feature-list:nth-of-type(4) {
   top: 1700px;
   right: 50px; }
 
-/* line 135, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+/* line 139, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
 .joiner {
   display: block;
   content: "";
@@ -140,29 +144,29 @@
   top: 46px;
   background: #888; }
 
-/* line 147, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+/* line 153, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
 .radar {
   fill: none;
   stroke: #ff7805;
   stroke-width: 4;
   animation: ping 10s infinite; }
 
-/* line 153, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+/* line 159, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
 .core {
   fill: #ff7805;
   stroke: #ff7805;
   stroke-width: 4;
   animation: throb 10s infinite; }
 
-/* line 156, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+/* line 162, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
 .radar:nth-of-type(1) {
   animation-delay: 300ms; }
 
-/* line 159, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+/* line 165, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
 .radar:nth-of-type(2) {
   animation-delay: 200ms; }
 
-/* line 162, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+/* line 168, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
 .radar:nth-of-type(3) {
   animation-delay: 100ms; }
 
@@ -199,19 +203,19 @@
     opacity: 1; } }
 
 /* ------------SITEFRAME---------------------- */
-/* line 190, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+/* line 196, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
 .siteframe {
   border: 1px solid grey;
   position: relative; }
 
-/* line 194, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+/* line 200, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
 .siteframe .icon {
   position: absolute;
   bottom: -2em;
   right: -2em; }
 
 /*  #########  TEXT #########  */
-/* line 202, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
+/* line 208, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/styles.scss */
 .title {
   margin: 1em 0; }
 

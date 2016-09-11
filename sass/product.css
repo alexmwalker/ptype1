@@ -1,0 +1,10 @@
+/* line 1, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/product.scss */
+.perf-badge {
+  border: 1px #ccc solid;
+  border-radius: 10px;
+  text-align: center; }
+  /* line 5, /Users/alexmwalker/ownCloud/Component Store/PType1/sass/product.scss */
+  .perf-badge span.figures {
+    font-size: 3em; }
+
+/*# sourceMappingURL=product.css.map */
